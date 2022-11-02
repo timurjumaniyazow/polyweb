@@ -1,0 +1,26 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+
+
+h1{
+    font-size: 128px;
+    color: white;
+}
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 48px;
+}
+p{
+    font-size: 24px;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
+@import 'blocks/header';

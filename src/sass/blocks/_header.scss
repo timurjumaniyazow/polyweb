@@ -1,0 +1,43 @@
+.header{
+    background: url('../img/bg/header.jpg')  center;
+    padding: 50px 130px 0;
+    &__nav{
+        max-width: 1660px;
+        max-height: 120px;
+        background: #363636;
+        border-radius: 48px;
+        display: flex;
+        &__logo{
+            max-width: 232px;
+            max-height: 67px;
+            margin: 27px 20px;
+        }
+        &__button{
+        background: #ABABAB;
+        border-radius: 20px;
+        width: 360px;
+        height: 90px;
+        margin: 15px 89px;
+        font-weight: 400;
+        font-size: 32px;
+        }
+    }
+    &__container{
+        margin: 0 auto;
+    }
+    &__list{
+        display: flex;
+        margin: 40px 120px 40px 20px;
+        align-items: center;
+        text-align: center;
+        gap: 45px;
+        &__item{
+            color: white;
+            font-size: 32px;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
