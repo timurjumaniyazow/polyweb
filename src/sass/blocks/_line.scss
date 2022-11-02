@@ -1,0 +1,33 @@
+.line{
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    position: relative;
+    width: 1712px;
+    height: 0px;
+    background: #000;
+    border: 14px solid #000000;
+    transform: rotate(0.04deg);
+    &::after{
+        content: '';
+        position: absolute;
+        left: calc(-212.32px);
+        top: calc(-208.6px / 2);
+        width: 212.32px;
+        height: 208.6px;
+        border: 14px solid #000000;
+        border-radius: 209.5px;
+        transform: rotate(42.67deg);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        right: -212.32px;
+        top: -107px;
+        width: 212.32px;
+        height: 208.6px;
+        border: 14px solid #000000;
+        border-radius: 209.5px;
+        transform: rotate(42.67deg);
+    }
+}
