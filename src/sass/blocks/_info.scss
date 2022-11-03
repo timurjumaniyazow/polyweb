@@ -24,6 +24,14 @@
         }
         &__text{
             margin-top: 49px;
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    color: $bg-color;
+                    text-decoration: underline;
+                }
+            }
         }
     }
     &__order{
@@ -56,6 +64,11 @@
                 line-height: 58px;
                 color: #000000;
                 text-align: center;
+                transition: all 300ms;
+                &:hover{
+                    background: #ABABAB;
+                    color: black;
+                }
             }
         }
     }

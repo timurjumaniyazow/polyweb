@@ -30,8 +30,9 @@
                 color: white;
                 &:hover{
                     text-decoration: underline;
-                    color: white;
+                    color: $bg-color;
                 }
+                
             }
         }
         &__text{
