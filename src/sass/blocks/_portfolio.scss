@@ -1,0 +1,82 @@
+.portfolio{
+    margin-top: 100px;
+    position: relative;
+    &::after{
+        content: '';
+        display: block;
+        background: url('../img/bg/mouse.svg') no-repeat;
+        top: 0%;
+        transform: translateY(-50%);
+        width: 1052px;
+        height: 643px; 
+        position: absolute;
+        z-index: -1;
+    }
+    &__container{
+        padding-top: 30px;
+        width: 1660px;
+        background: rgba(54, 54, 54, 0.9);
+        border-radius: 48px;
+        height: 1200px;
+    }
+    &__title{
+        text-align: center;
+        position: relative;
+        &::after{
+            position: absolute;
+            left: 50%;
+            top: calc(100% + 30px);
+            transform: translate(-50%, 50%);
+            content: '';
+            width: 1530px;
+            height: 17px;
+            background: #FFD845;
+            border-radius: 48px;
+        }
+    }
+    &__slider{
+        margin-top: 90px;
+        &__item{
+            padding: 25px;
+            width: 750px;
+            height: 860px;
+            background: rgba(54, 54, 54, 0.9);
+            border-radius: 48px;
+            &__photo{
+                margin: 0 auto;
+                width: 700px;
+                height: 620px;
+                background: #D9D9D9;
+                border-radius: 48px;
+            }
+            &__project{
+                margin-top: 30px;
+            }
+            &__aim{
+                margin-top: 30px;
+            }
+        }
+    }
+    .arrows{
+        margin: 0 auto;
+        margin-top: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .slick-next{
+        border: none;
+        background: none;
+    }
+    .slick-prev{
+        border: none;
+        background: none;
+    }
+    .slick-track{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+}

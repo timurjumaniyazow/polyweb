@@ -6,7 +6,7 @@
     width: 1712px;
     height: 0px;
     background: #000;
-    border: 14px solid #000000;
+    border: 7px solid #000000;
     transform: rotate(0.04deg);
     &::after{
         content: '';
@@ -29,5 +29,6 @@
         border: 14px solid #000000;
         border-radius: 209.5px;
         transform: rotate(42.67deg);
+        overflow-x:hidden;
     }
 }
