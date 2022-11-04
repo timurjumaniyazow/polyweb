@@ -1,5 +1,4 @@
 .services{
-    background: $bg-color;
     &__container{
         max-width: 166rem;
         min-height: 41rem;
@@ -30,7 +29,6 @@
         gap: 4.5rem;
         margin-top: 8rem;
         justify-content: center;
-        
         &__item{
             display: block;
             width: 35rem;
