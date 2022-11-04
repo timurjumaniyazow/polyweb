@@ -1,56 +1,58 @@
 .team{
-    margin-top: 51px;
+    margin-top: 5.1rem;
+    padding: 0 13rem;
     &__container{
-        max-width: 1660px;
-        min-height: 410px;
+        max-width: 166rem;
+        min-height: 41rem;
         background: rgba(54, 54, 54, 0.9);
-        border-radius: 48px;
-        padding-top: 50px;
-        padding-bottom: 61px;
+        border-radius: 4.8rem;
+        padding-top: 5rem;
+        padding-bottom: 6.1rem;
     }
     &__title{
         text-align: right;
-        line-height: 77px;
-        margin-right: 103px;
+        line-height: 7.7rem;
+        margin-right: 10.3rem;
         position: relative;
         &::after{
             display: block;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            left: 65px;
+            left: 6.5rem;
             content: '';
-            width: 1180px;
-            height: 20px;
+            width: 118rem;
+            height: 2rem;
             background: #FFD845;
-            border-radius: 48px;
+            border-radius: 4.8rem;
         }
     }
     &__list{
-        margin-top: 34px;
+        
+        margin-top: 3.4rem;
         display: grid;
-        grid-template: repeat(2, 450px) / repeat(4, 350px);
-        grid-auto-rows: 280px;
-        row-gap: 40px;
-        grid-gap: 50px;
+        grid-template: repeat(2, 45rem) / repeat(4, 35rem);
+        grid-auto-rows: 45rem;
+        row-gap: 4rem;
+        grid-gap: 5rem;
         &__item{
-            padding: 25px;
-            width: 350px;
-            height: 450px;
+            padding: 2.5rem;
+            width: 35rem;
+            height: 45rem;
             background: rgba(54, 54, 54, 0.9);
-            border-radius: 48px;
+            border-radius: 4.8rem;
             &__photo{
                 margin: 0 auto;
-                width: 300px;
-                height: 300px;
+                width: 30rem;
+                height: 30rem;
                 background: #D9D9D9;
-                border-radius: 48px;
+                border-radius: 4.8rem;
             }
             &__job, &__exp{
                 font-weight: 400;
-                font-size: 24px;
-                line-height: 29px;
-                margin-top: 20px;
+                font-size: 2.4rem;
+                line-height: 2.9rem;
+                margin-top: 2rem;
             }
         }
     }

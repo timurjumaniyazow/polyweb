@@ -1,29 +1,31 @@
 .footer{
-    margin-top: 150px;
+    padding: 0 13rem;
+    margin-top: 15rem;
     &__container{
-        width: 1660px;
-        min-height: 576px;
         background: rgba(54, 54, 54, 0.9);
-        border-radius: 48px 48px 0px 0px;
+        border-radius: 4.8rem 4.8rem 0 0;
         display: flex;
-        padding: 112px 65px;
-        gap: 65px;
+        padding: 11.2rem 6.5rem;
+        gap: 6.5rem;
+    }
+    &__logo{
+        max-width: 35.2rem;
     }
     &__info{
-        width: 1113px;
-        height: 352px;
+        max-width: 111.3rem;
+        min-height: 35.2rem;
         background: #393937;
-        border-radius: 48px;
+        border-radius: 4.8rem;
         font-weight: 400;
-        font-size: 48px;
-        line-height: 58px;
-        padding: 34px 86px;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        padding: 3.4rem 8.6rem;
         display: flex;
-          gap: 170px;
+        gap: 17rem;
         &__links{
             display: flex;
             flex-direction: column;
-            row-gap: 17px;
+            row-gap: 1.7rem;
             &__link{
                 display: block;
                 text-decoration: none;
@@ -36,14 +38,14 @@
             }
         }
         &__text{
-            margin-top: 37px;
+            margin-top: 3.7rem;
             display: flex;
             flex-direction: column;
-            row-gap: 18px;
+            row-gap: 1.8rem;
             &__1{
                 font-weight: 400;
-                font-size: 48px;
-                line-height: 58px;
+                font-size: 4.8rem;
+                line-height: 5.8rem;
                 color: #FFFFFF;
             }
         }

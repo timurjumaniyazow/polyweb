@@ -1,23 +1,23 @@
 .portfolio{
-    margin-top: 100px;
+    margin-top: 10rem;
     position: relative;
     &::after{
         content: '';
         display: block;
-        background: url('../img/bg/mouse.svg') no-repeat;
+        background: url('../img/bg/mouse.svg') center/cover no-repeat;
         top: 0%;
         transform: translateY(-50%);
-        width: 1052px;
-        height: 643px; 
+        width: 38.131rem;
+        height: 61.4rem; 
         position: absolute;
         z-index: -1;
     }
     &__container{
-        padding-top: 30px;
-        width: 1660px;
+        padding-top: 3rem;
+        width: 166rem;
         background: rgba(54, 54, 54, 0.9);
-        border-radius: 48px;
-        height: 1200px;
+        border-radius: 4.8rem;
+        height: 120rem;
     }
     &__title{
         text-align: center;
@@ -25,45 +25,45 @@
         &::after{
             position: absolute;
             left: 50%;
-            top: calc(100% + 30px);
+            top: calc(100% + 3rem);
             transform: translate(-50%, 50%);
             content: '';
-            width: 1530px;
-            height: 17px;
+            width: 153rem;
+            height: 1.7rem;
             background: #FFD845;
-            border-radius: 48px;
+            border-radius: 4.8rem;
         }
     }
     &__slider{
-        margin-top: 90px;
+        margin-top: 9rem;
         &__item{
-            padding: 25px;
-            width: 750px;
-            height: 860px;
+            padding: 2.5rem;
+            width: 75rem;
+            height: 86rem;
             background: rgba(54, 54, 54, 0.9);
-            border-radius: 48px;
+            border-radius: 4.8rem;
             &__photo{
                 margin: 0 auto;
-                width: 700px;
-                height: 620px;
+                max-width: 70rem;
+                height: 62rem;
                 background: #D9D9D9;
-                border-radius: 48px;
+                border-radius: 4.8rem;
             }
             &__project{
-                margin-top: 30px;
+                margin-top: 3rem;
             }
             &__aim{
-                margin-top: 30px;
+                margin-top: 3rem;
             }
         }
     }
     .arrows{
         margin: 0 auto;
-        margin-top: 74px;
+        margin-top: 7.4rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        gap: 3rem;
     }
     .slick-next{
         border: none;
@@ -75,7 +75,7 @@
     }
     .slick-track{
         display: flex;
-        gap: 30px;
+        gap: 3rem;
         align-items: center;
         justify-content: center;
     }

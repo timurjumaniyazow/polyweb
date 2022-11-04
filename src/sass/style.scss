@@ -1,40 +1,35 @@
+@import 'libs/slick.css';
 @import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+
 *{
     font-family: 'Inter', sans-serif;
     color: white;
+}
+html{
+    font-size: calc(100vw / 1920 * 10);
 }
 body{
     background: $bg-color;
     margin: 0 auto;
     overflow-x: clip;
 }
-h1{
-    font-size: 128px;
-    color: white;
-    font-weight: 300;
-}
-h2{
-    font-size: 64px;
-    font-weight: 400;
-}
-h3{
-    font-size: 48px;
-}
 p{
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 ul{
     list-style-type: none;
 }
 .container{
     margin: 0 auto;
+    width: 166rem;
 }
-@import 'base/mixins';
-@import 'base/animations';
 
 
 
 
+@import 'blocks/titles';
 @import 'blocks/header';
 @import 'blocks/services';
 @import 'blocks/line';

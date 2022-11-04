@@ -1,49 +1,49 @@
 .services{
     background: $bg-color;
     &__container{
-        max-width: 1660px;
-        min-height: 410px;
+        max-width: 166rem;
+        min-height: 41rem;
         background: rgba(54, 54, 54, 0.9);
-        border-radius: 48px;
-        padding-top: 50px;
+        border-radius: 4.8rem;
+        padding-top: 5rem;
     }
     &__title{
-        line-height: 77px;
-        margin-left: 134px;
+        line-height: 7.7rem;
+        margin-left: 13.4rem;
         position: relative;
         &::after{
             display: block;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            left: 281px;
+            left: 28.1rem;
             content: '';
-            width: 1180px;
-            height: 20px;
+            width: 118rem;
+            height: 2rem;
             background: #FFD845;
-            border-radius: 48px;
+            border-radius: 4.8rem;
         }
     }
     &__list{
         margin: 0 auto;
         display: flex;
-        gap: 45px;
-        margin-top: 80px;
+        gap: 4.5rem;
+        margin-top: 8rem;
         justify-content: center;
         
         &__item{
             display: block;
-            width: 350px;
-            height: 150px;
+            width: 35rem;
+            height: 15rem;
             text-align: center;
             font-weight: 400;
-            font-size: 24px;
-            line-height: 29px;
+            font-size: 2.4rem;
+            line-height: 2.9rem;
             background: rgba(54, 54, 54, 0.9);
-            border-radius: 48px;
-            padding: 60px 0 61px;
+            border-radius: 4.8rem;
+            padding: 6rem 0 6.1rem;
             &:nth-child(1){
-                padding: 40px 0;
+                padding: 4rem 0;
             }
         }
     }

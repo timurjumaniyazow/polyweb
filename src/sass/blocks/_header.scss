@@ -2,35 +2,38 @@
     margin: 0 auto;
     background: url('../img/bg/header.jpg')  center center/cover  no-repeat;
     max-width: 100%;
-    padding-top: 50px;
-    padding-bottom: 42px;
+    padding-top: 5rem;
+    padding-bottom: 4.2rem;
     &__nav{
         margin: 0 auto;
-        max-width: 1660px;
-        max-height: 120px;
+        max-width: 100%;
         background: #363636;
-        border-radius: 48px;
+        border-radius: 4.8rem;
         display: flex;
         align-items: center;
-        padding-left: 20px;
-        gap: 109px;
+        padding-left: 2rem;
+        gap: 10.9rem;
         &__logo{
-            max-width: 232px;
-            max-height: 67px;
+            max-width: 23.2rem;
+            max-height: 6.7rem;
         }
         &__button{
         background: #ABABAB;
-        border-radius: 20px;
-        width: 360px;
-        height: 90px;
-        margin: 15px 0;
+        border-radius: 2rem;
+        width: 36rem;
+        height: 9rem;
+        margin: 1.5rem 0;
         font-weight: 400;
-        font-size: 32px;
+        font-size: 3.2rem;
         color: black;
         transition: all 300ms;
         &:hover{
             background: $bg-color;
-            color: white;
+            color: black;
+        }
+        &:active{
+            background: #AC922B;
+            color: #D8D8D8;
         }
         }
     }
@@ -39,13 +42,13 @@
     }
     &__list{
         display: flex;
-        margin: 40px 127px auto auto;
+        margin: 4rem 12.7rem auto auto;
         align-items: center;
         text-align: center;
-        gap: 45px;
+        gap: 4.5rem;
         &__item{
             color: white;
-            font-size: 32px;
+            font-size: 3.2rem;
             text-decoration: none;
             &:hover{
                 text-decoration: underline;
@@ -55,27 +58,27 @@
     }
     &__about{
         margin: 0 auto;
-        height: 490px;
-        max-width: 1240px;
+        min-height: 49rem;
+        max-width: 124rem;
         background: rgba(54, 54, 54, 0.9);
-        border-radius: 48px;
-        margin-top: 130px;
-        padding: 28px 116px 0 117px;
+        border-radius: 4.8rem;
+        margin-top: 13rem;
+        padding: 2.8rem 11.6rem 0 11.7rem;
         &__title{
-            line-height: 155px;
+            line-height: 15.5rem;
         }
         &__line{
             margin: 0 auto;
             width: calc(100%);
-            height: 0px;
-            border: 1px solid #FFFFFF;
-            margin-top: 35px;
+            height: 0;
+            border: 0.1rem solid #FFFFFF;
+            margin-top: 3.5rem;
         }
         &__text{
-            margin-top: 35px;
+            margin-top: 3.5rem;
             text-align: left;
             font-weight: 300;
-            line-height: 58px;
+            line-height: 5.8rem;
             color: #FFFFFF;
         }
     }
@@ -84,6 +87,6 @@
         margin: 0 auto;
         border: none;
         background: none;
-        margin-top: 187px;
+        margin-top: 18.7rem;
     }
 }
