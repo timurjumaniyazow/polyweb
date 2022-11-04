@@ -17,17 +17,25 @@
             <nav class="header__nav">
                 <img class="header__nav__logo" src="img/logo/logonav.svg" alt="logo">
                 <button class="header__nav__button">Заказать услугу</button>
-                <ul class="header__list">
-                    <li><a class="header__list__item" href="#team">Команда</a></li>
-                    <li><a class="header__list__item" href="#services">Услуги</a></li>
-                    <li><a class="header__list__item" href="#portfolio">Портфолио</a></li>
-                    <li><a class="header__list__item" href="#info">Контакты</a></li>
+                <ul class="header__list menu">
+                    <li><a class="header__list__item menu_item" href="#team">Команда</a></li>
+                    <li><a class="header__list__item menu_item" href="#services">Услуги</a></li>
+                    <li><a class="header__list__item menu_item" href="#portfolio">Портфолио</a></li>
+                    <li><a class="header__list__item menu_item" href="#info">Контакты</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                </div>
             </nav>
             <div class="header__about">
                 <h1 class="header__about__title title">PolyWeb Agency</h1>
                 <div class="header__about__line"></div>
-                <h3 class="header__about__text title title_h3">Студенческая веб-студия Polyweb Agency. <br> Мы учимся и работаем. Работаем для вас <br> и ваших сайтов.</h3>
+                <h3 class="header__about__text title title_h3">Студенческая веб-студия Polyweb Agency.  Мы учимся и работаем. Работаем для вас  и ваших сайтов.</h3>
             </div>
             <a href="#services" class="header__down"><img src="img/icons/Arrow.svg" alt="arrow"></a>
         </div>
@@ -44,7 +52,7 @@
                 </ul>
             </div>
         </section>
-        <div class="line"></div>
+         <!-- <div class="line"></div>  -->
         <section id="team" class="team">
             <div class="container team__container">
                     <h2 class="team__title title title_h2">Команда</h2>
@@ -90,6 +98,54 @@
                             <p class="team__list__item__exp">Опыт работы: ***</p>
                         </li>
                     </ul>
+                    <div class="team__list__mobile">
+                        <ul class="team__list__mobile__item">
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                        </ul>
+                        <ul class="team__list__mobile__item">
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                            <li class="team__list__item">
+                                <div class="team__list__item__photo"></div>
+                                <p class="team__list__item__job">Должность: ***</p>
+                                <p class="team__list__item__exp">Опыт работы: ***</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="team__arrows arrows">
+                    </div>
             </div>
         </section>
         <section id="portfolio" class="portfolio">
@@ -122,7 +178,7 @@
                         <p class="portfolio__slider__item__aim">Цель: ***</p>
                     </li>
                 </ul>
-                <div class="arrows">
+                <div class="arrows portfolio__arrows">
                 </div>
             </div>
         </section>
@@ -132,7 +188,7 @@
                 <p class="story__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat ullam illo nulla quidem, deleniti ipsum a, reprehenderit est quos facere id consectetur saepe atque aperiam tempore ab! Sed, commodi.</p>
             </div>
         </section>
-        <div class="line"></div>
+         <!-- <div class="line"></div>  -->
         <section id="info" class="info">
             <div class="container info__container">
                 <div class="info__item info__contacts">
@@ -167,7 +223,7 @@
     </main>
     <footer class="footer">
         <div class="container footer__container">
-            <img class="footer__logo" src="img/logo/logofooter.svg" alt="logo">
+            <div class="footer__logo"><img src="img/logo/logofooter.svg" alt="logo"></div>
             <div class="footer__info">
                 <div class="footer__info__links">
                     <a href="#services" class="footer__info__links__link">Услуги</a>

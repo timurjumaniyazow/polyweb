@@ -57,26 +57,38 @@
             }
         }
     }
-    .arrows{
-        margin: 0 auto;
-        margin-top: 7.4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
+}
+.slick-next{
+    border: none;
+    background: none;
+    width: 14.2rem;
+    max-height: 0.2rem;
+    img{
+        width: 100%;
+        max-height: 100%;
     }
-    .slick-next{
-        border: none;
-        background: none;
+}
+.slick-prev{
+    border: none;
+    background: none;
+    width: 14.2rem;
+    max-height: 0.2rem;
+    img{
+        width: 100%;
+        max-height: 100%;
     }
-    .slick-prev{
-        border: none;
-        background: none;
-    }
-    .slick-track{
-        display: flex;
-        gap: 3rem;
-        align-items: center;
-        justify-content: center;
-    }
+}
+.slick-track{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.arrows{
+    margin: 0 auto;
+    margin-top: 7.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
 }

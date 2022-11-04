@@ -1,0 +1,298 @@
+@media (max-width: 1660px){
+    html{
+        font-size: calc(100vw / 1660 * 10);
+    }
+    .container{
+        width: 155rem;
+    }
+    .header{
+        &__nav{
+            gap: 8.4rem;
+            &__logo{
+                max-width: 21.6rem;
+            }
+        }
+        &__about{
+            margin-top: 13.8rem;
+        }
+    }
+    .services{
+        margin-top: 3.4rem;
+        &__list{
+            gap: 9.5rem;
+            &__item{
+                max-width: 30rem;
+            }
+        }
+        &__title{
+            margin-left: 6.5rem;
+        }
+    }
+    .team{
+        margin-top: 2.3rem;
+        padding: 0;
+        &__title{
+            margin-right: 2rem;
+            &::after{
+                width: 115rem;
+                left: 5rem;
+            }
+        }
+        &__list{
+            margin-top: 2.5rem;
+            grid-template: repeat(2, 45rem) / repeat(4, 30rem);
+            row-gap: 3.5rem;
+            &__item{
+                max-width: 30rem;
+                &__photo{
+                    max-width: 25rem;
+                }
+            }
+        }
+    }
+    .portfolio{
+        margin-top: 10.7rem;
+        &__title{
+            &::after{
+                top: calc(100% + 4.4rem); 
+                width: 142rem;
+            }
+        }
+    }
+    .story{
+        margin-top: 11.1rem;
+        padding: 0;
+        &__title{
+            &::after{
+                width: 91.9rem;
+            }
+        }
+        &__text{
+            width: 142rem;
+            padding-left: 5.9rem;
+        }
+    }
+    .info{
+        padding: 0;
+        margin-top: 5rem;
+        &__container{
+            padding:6.5rem 5rem;
+            grid-gap: 4.5rem;
+        }
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: calc(100vw / 768 * 10);
+    }
+    .container{
+        width: 70.4rem;
+    }
+    .title{
+        font-size: 6.4rem;
+        &_h3{
+            font-size: 3.6rem;
+        }
+    }
+    .header{
+        .hamburger{
+            margin: 3.7rem 4.9rem;
+            width: 8.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            span{
+                display: block;
+                width: 100%;
+                transition: .5s all;
+                border: 0.5rem solid #FCD743;
+                background-color: $bg-color;
+            }
+            &_active{
+                span{
+                    margin-bottom: -3rem;
+                    &:nth-child(1){
+                        transform: rotate(45deg);}
+                    &:nth-child(2){
+                        display: none;}
+                    &:nth-child(3){
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+        }
+        &__nav{
+            gap: 0;
+            align-items: center;
+            &__logo{
+                max-width: 21.6rem;
+            }
+            &__button{
+                max-width: 24rem;
+                font-size: 2.4rem;
+            }
+            .menu{
+                position: absolute;
+                display: flex;
+                width: 70.4rem;
+                height: 8.5rem;
+                top: 18.9rem;
+                left: -100%;
+                background: rgba(54, 54, 54, 0.9);
+                border-radius: 4.8rem;
+                transition: all 600ms;
+                &_active{
+                    left: 3.2rem;
+
+                }
+                &_item{ 
+                    padding-right: 0;
+                    border: none;
+                    margin: 1rem 0;}
+            }
+        }
+        &__list{
+            display: none;
+            margin: 0;
+            &__item{
+                font-size: 2.4rem;
+            }
+        }
+        &__about{
+            margin-top: 16.3rem;
+            padding: 5.5rem 7.3rem;
+            &__title{
+                line-height: 7.7rem;
+            }
+            &__line{
+                margin-top: 5.9rem;
+            }
+            &__text{
+                line-height: 4.4rem;
+            }
+        }
+        &__down{
+            margin-top: 16.8rem;
+        }
+    }
+    .services{
+        &__container{
+            padding-bottom: 5.8rem;
+        }
+        &__list{
+            gap: 5.5rem;
+            flex-wrap: wrap;
+        }
+        &__title{
+            &::after{
+                width: 36.7rem;
+                left: 24.1rem;
+            }
+        }
+    }
+    
+    .team{
+        &__container{
+            padding-top: 1rem;
+        }
+        &__title{
+            &::after{
+                width: 35.6rem;
+                left: 4rem;
+            }
+        }
+        &__list{
+            display: none;
+            grid-template-columns: repeat(2, 30rem);
+            &__mobile{
+                display: block;
+                padding: 2rem;
+                .slick-slide{
+                    display: grid;
+                    gap: 3.5rem 5.6rem;
+                    grid-template: repeat(2, 45rem) / repeat(2, 30rem);
+                    padding: 0;
+                }
+            }
+        }
+        .arrows{
+            display: flex;
+        }
+    }
+    .portfolio{
+        &__title{
+            &::after{
+                width: 66.5rem;
+            }
+        }
+        &__slider{
+            &__item{
+                width: 70rem;
+            }
+        }
+    }
+    .story{
+        &__title{
+            &::after{
+                width: 16rem;
+                left: calc(44.7rem + 16.7rem);
+            }
+        }
+        &__text{
+            width: 59.6rem;
+        }
+    }
+    .info{
+        &__container{
+            grid-template: 49rem / 70.2rem;
+            row-gap: 3.2rem;
+            grid-auto-rows: 49rem;
+            padding: 4.3rem 1.3rem 3.4rem;
+            width: 72.8rem;
+        }
+        &__contacts{
+            grid-row: 1/2;
+        }
+        &__order{
+            grid-row: 3/5;
+        }
+    }
+    .footer{
+        &__container{
+            flex-direction: column;
+            width: 76.7rem;
+            padding: 3rem;
+            padding-bottom: 6rem;
+        }
+        &__logo{
+            display: block;
+            width: 10rem;
+            height: 10rem;
+            border-radius: 2.4rem;
+            position: relative;
+            &::after{
+                display: block;
+                position: absolute;
+                content: '';
+                width: 51.7rem;
+                height: 10rem;
+                left: 19.7rem;
+                top: -50%;
+                transform: translateY(50%);
+                background: #FCD743;
+                border-radius: 4.8rem;
+            }
+        }
+        &__info{
+            margin-top: 3.4rem;
+            width: 70.6rem;
+            font-size: 2.4rem;
+            gap: 10.7rem;
+            &__text{
+                &__1{
+                    font-size: 2.4rem;
+                }
+            }
+        }
+    }
+}  

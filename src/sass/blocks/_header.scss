@@ -14,8 +14,8 @@
         padding-left: 2rem;
         gap: 10.9rem;
         &__logo{
-            max-width: 23.2rem;
-            max-height: 6.7rem;
+            width: 23.2rem;
+            height: 6.7rem;
         }
         &__button{
         background: #ABABAB;
@@ -94,5 +94,9 @@
             max-width: 100%;
             max-height: 100%;
         }
+    }
+    .hamburger{
+        display: none;
+        
     }
 }
