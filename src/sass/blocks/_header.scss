@@ -3,7 +3,6 @@
     background: url('../img/bg/header.jpg')  center center/cover  no-repeat;
     max-width: 100%;
     padding-top: 2rem;
-    padding-bottom: 4.2rem;
     &__nav{
         margin: 0 auto;
         max-width: 100%;
@@ -45,6 +44,12 @@
     }
     &__container{
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        padding-bottom: 2.2rem;
+
     }
     &__list{
         display: flex;
@@ -93,7 +98,7 @@
         margin: 0 auto;
         border: none;
         background: none;
-        margin-top: 5.7rem;
+        // margin-top: 19.7rem;
         max-width: 11.6rem;
         max-height: 12.2rem;
         img{
