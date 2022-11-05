@@ -31,9 +31,13 @@
         display: none;
     }
     &__list{
+        margin: 0 auto;
+        max-width: fit-content;
         margin-top: 3.4rem;
         display: grid;
-        grid-template: repeat(2, 45rem) / repeat(4, 35rem);
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(4, 35rem);
+        // grid-template: repeat(2, 45rem) / repeat(4, 35rem);
         grid-auto-rows: 45rem;
         row-gap: 4rem;
         grid-gap: 5rem;
@@ -43,7 +47,7 @@
         &__item{
             padding: 2.5rem;
             width: 35rem;
-            height: 45rem;
+            min-height: 45rem;
             background: rgba(54, 54, 54, 0.9);
             border-radius: 4.8rem;
             &__photo{

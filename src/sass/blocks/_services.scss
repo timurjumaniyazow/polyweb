@@ -30,19 +30,17 @@
         margin-top: 8rem;
         justify-content: center;
         &__item{
-            display: block;
+            display: flex;
             width: 35rem;
-            height: 15rem;
-            text-align: center;
+            max-height: fit-content;
+            justify-content: center;
+            align-items: center;
             font-weight: 400;
             font-size: 2.4rem;
             line-height: 2.9rem;
             background: rgba(54, 54, 54, 0.9);
             border-radius: 4.8rem;
             padding: 6rem 0 6.1rem;
-            &:nth-child(1){
-                padding: 4rem 0;
-            }
         }
     }
 }
