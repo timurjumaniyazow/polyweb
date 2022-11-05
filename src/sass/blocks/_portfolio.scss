@@ -17,7 +17,7 @@
         width: 166rem;
         background: rgba(54, 54, 54, 0.9);
         border-radius: 4.8rem;
-        min-height: 120rem;
+        min-height: 85rem;
         padding-bottom: 6rem;
     }
     &__title{
@@ -26,7 +26,7 @@
         &::after{
             position: absolute;
             left: 50%;
-            top: calc(100% + 3rem);
+            top: calc(100% + 1.4rem);
             transform: translate(-50%, 50%);
             content: '';
             width: 153rem;
@@ -36,17 +36,17 @@
         }
     }
     &__slider{
-        margin-top: 9rem;
+        margin-top: 7rem;
         &__item{
             padding: 2.5rem;
             width: 75rem;
-            min-height: 86rem;
+            min-height: 60rem;
             background: rgba(54, 54, 54, 0.9);
             border-radius: 4.8rem;
             &__photo{
                 margin: 0 auto;
                 max-width: 70rem;
-                height: 62rem;
+                height: 40rem;
                 background: #D9D9D9;
                 border-radius: 4.8rem;
                 img{
@@ -94,7 +94,7 @@
 }
 .arrows{
     margin: 0 auto;
-    margin-top: 7.4rem;
+    margin-top: 2.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
