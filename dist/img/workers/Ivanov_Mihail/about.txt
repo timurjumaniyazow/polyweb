@@ -1,0 +1,4 @@
+Full-stack
+
+React JS/Typescript, Kotlin, Ktor, Flutter, PostgreSQL, Django, tailwindcss,
+MaterialUI Kit, Vue, React Native, Nuxt JS. 

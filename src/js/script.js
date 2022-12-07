@@ -16,7 +16,7 @@ $(document).ready(function(){
             }
           ]
     });
-    $('.team__list__mobile').slick({
+    $('.team__list').slick({
         speed: 300,
         prevArrow: '<button type="button" class="slick-next"><img src="img/icons/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-prev"><img src="img/icons/right.svg"></button>',
@@ -25,6 +25,15 @@ $(document).ready(function(){
         variableWidth: true,
         slidesToScroll: 1,
         infinite: true,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            }
+          ]
     });
 });
 window.addEventListener('DOMContentLoaded', () => {

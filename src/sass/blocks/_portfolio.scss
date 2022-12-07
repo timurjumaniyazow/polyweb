@@ -37,10 +37,11 @@
     }
     &__slider{
         margin-top: 7rem;
+        padding: 2rem;
         &__item{
             padding: 2.5rem;
             width: 75rem;
-            min-height: 60rem;
+            height: inherit;
             background: rgba(54, 54, 54, 0.9);
             border-radius: 4.8rem;
             &__photo{
@@ -52,9 +53,10 @@
                 img{
                     object-fit: cover;
                     object-position: center center;
-                    max-width: 100%;
-                    max-height: 100%;
+                    width: 100%;
+                    height: 100%;
                     border: none;
+                    border-radius: 4.8rem;
                 }
             }
             &__project{
@@ -89,8 +91,8 @@
 .slick-track{
     display: flex;
     gap: 3rem;
-    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .arrows{
     margin: 0 auto;

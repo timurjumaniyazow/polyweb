@@ -209,12 +209,10 @@
             }
         }
         &__list{
-            display: none;
-            grid-template-columns: repeat(2, 30rem);
-            &__mobile{
+            
                 display: block;
                 padding: 2rem;
-            }
+            
         }
         .arrows{
             display: flex;
